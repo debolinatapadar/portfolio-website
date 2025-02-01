@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4B0082; /* Purple */
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -32,18 +32,16 @@ section {
     margin: 1rem;
     background-color: #fff;
     border-radius: 5px;
-    
 }
 
 footer {
-    
     text-align: center;
     padding: 1rem;
-    background-color: #333;
+    background-color: #4B0082; /* Purple */
     color: #fff;
     position: fixed;
     bottom: 0;
-    width: 35%;
+    width: 100%;
 }
 
 .project {
@@ -52,4 +50,27 @@ footer {
 
 .project h3 {
     margin: 0;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #8E7618; /* Hazel */
+    color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 1rem;
+    text-align: center;
+}
+
+/* Mobile-friendly styles */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    section, #contact {
+        margin: 0.5rem;
+        padding: 1rem;
+    }
 }
