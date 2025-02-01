@@ -11,46 +11,6 @@ header {
     padding: 1rem;
     text-align: center;
 }
-/* Profile section styles */
-#profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    margin: 1rem;
-    background-color: #fff;
-    border-radius: 5px;
-}
-
-#profile img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 1rem;
-}
-
-#profile h2 {
-    margin: 0.5rem 0;
-}
-
-/* Mobile-friendly styles */
-@media (max-width: 768px) {
-    header nav ul li {
-        display: block;
-        margin: 0.5rem 0;
-    }
-
-    section, #contact, #profile {
-        margin: 0.5rem;
-        padding: 1rem;
-    }
-
-    #profile img {
-        width: 100px;
-        height: 100px;
-    }
-}
 
 header nav ul {
     list-style: none;
